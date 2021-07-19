@@ -6,7 +6,7 @@ axios.get("https://api.cryptonator.com/api/ticker/btc-usd\n")
     console.log("err")
 })
 
-const fetchBitcoinPrice= async()=>{
+const fetchBitcoinPrice1= async()=>{
     try{
         const res = await axios.get("https://api.cryptonator.com/api/ticker/btc-usd\n")
         console.log(res.data.ticker.price)
